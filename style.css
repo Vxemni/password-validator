@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+    background-color: #1D0F0F;
+    color: #D4DBE2;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+#password {
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    border: 3px solid #7B7C81;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    outline: none;
+    color: #7B586B;
+}
+
+#password:hover {
+    border: 3px solid #56FF34;
+}
+
+.pass_info {
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.special_signs {
+    cursor: pointer;
+}
+
+
+
+.signs {
+    margin-top: 10px;
+    position: relative;
+    left: 150px;
+    background-color: #453C41;
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0;
+}

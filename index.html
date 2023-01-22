@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walidator hasła</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h1 class="title">Sprawdź czy masz bezpieczne hasło</h1>
+
+    <input type="password" id="password" placeholder="Wpisz hasło">
+    <p class="pass_text">Nie wpisałeś hasła</p>
+
+    <h3 class="pass_info">hasło musi zawierać:</h3>
+    <ul>
+        <li>przynajmniej 10 znaków</li>
+        <li>litery</li>
+        <li>cyfry</li>
+    </ul>
+    <br>
+   <p> Mocne hasło zawiera również <span class="special_signs" style="color:#56FF34">znaki specjalne</span> </p>
+   <div class="signs">
+        <p>! @ # $ % ^ & * ( )</p> 
+   </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
